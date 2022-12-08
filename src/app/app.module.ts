@@ -11,6 +11,7 @@ import { HomeComponent } from './core/home/home.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { BooksComponent } from './books/books.component';
+import { ProfileComponent } from './auth/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BooksComponent } from './books/books.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    BooksComponent
+    BooksComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
