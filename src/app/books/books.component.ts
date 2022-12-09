@@ -14,5 +14,5 @@ export class BooksComponent {
   //   author: 'Jane Austen'
   // };
 
-  books = BOOKS;
+  // books = BOOKS;
 }

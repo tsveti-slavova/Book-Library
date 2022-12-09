@@ -1,7 +1,30 @@
 <p>home works!</p>
-<!-- <h2>Top Heroes</h2>
-<div class="heroes-menu">
-  <a *ngFor="let book of books">
+<!-- <h2>Books Catalog</h2>
+<div class="book-menu">
+  <a *ngFor="let book of Books">
     {{book.name}}
   </a>
-</div> -->
+</div> --> 
+
+<div class="row">
+  <div class="col-md-12">
+    <h3>Books Catalog</h3>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Title</th>
+          <th>Author</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let book of books">
+          <td>{{book.id}}</td>
+          <td>{{book.title}}</td>
+          <td>{{book.author}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
